@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { RoutingModule } from './app.router';
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +19,8 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
   imports: [
     RoutingModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
